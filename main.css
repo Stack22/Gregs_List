@@ -1,0 +1,11 @@
+html {
+	font-size: 0px;
+	background: tan;
+}
+
+.navBar {
+	position: fixed;
+	width: 100%;
+	height: 100px;
+	background: lightgrey;
+}

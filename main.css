@@ -75,6 +75,7 @@ a:active {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 125px;
+	font-size: 0px;
 	
 }
 
@@ -90,6 +91,18 @@ input {
 	top: 12px;
 }
 
+.resultBar {
+	position: relative;
+	display: block;
+	width: 400px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	font-size: 14;
+	border: 2px solid grey;
+	border-radius: 5px;
+}
 
 
 

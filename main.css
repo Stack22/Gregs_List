@@ -63,9 +63,24 @@ a:active {
   color: black;
 }
 
+.mainContainer {
+	position: fixed;
+	border: 1px black dotted;
+	border-radius: 20px;
+	width: 80%;
+	min-width: 420px;
+	height: 800px;
+	right: 0px;
+	left: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 125px;
+	
+}
+
 input {
-	margin-top: 150px;
-	margin-left: 100px;
+	margin-top: 50px;
+	margin-left: 50px;
 	width: 300px;
 }
 
@@ -76,16 +91,5 @@ input {
 }
 
 
-/*.mainContainer {
-	position: fixed;
-	border: 1px black dotted;
-	width: 800px;
-	height: 800px;
-	right: 0px;
-	left: 0px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 200px;
-	
-}*/
+
 

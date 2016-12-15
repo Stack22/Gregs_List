@@ -23,11 +23,11 @@ nav {
 .navLinks {
 	display: inline-block;
 	position: absolute;
-	font-size: 30px;
+	font-size: 20px;
 	font-family: tahoma;
 	left: auto;
 	right: 50px;
-	top: 30px;
+	top: 40px;
 }
 
 ul {
@@ -42,21 +42,24 @@ li::after {
 	content: " | ";
 }
 
-nav.a:link {
-   unvisited link 
-  color: purple;
+a:link {
+   /*unvisited link*/ 
+  	color: purple;
+  	text-decoration: none;
 }
 
-nav.a:visited {
-  /* visited link 
-  color: purple;
+a:visited {
+   /*visited link*/ 
+  	color: purple;
+  	text-decoration: none;
 }
 
-nav.a:hover {
+a:hover {
   /* mouse over link */
+  text-decoration: underline;
 }
 
-nav.a:active {
+a:active {
   color: black;
 }
 
@@ -64,7 +67,6 @@ input {
 	margin-top: 150px;
 	margin-left: 100px;
 	width: 300px;
-	padding: 5px;
 }
 
 #magGlass {

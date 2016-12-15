@@ -21,7 +21,7 @@ nav {
 }
 
 .navLinks {
-	display: inline-block;
+	display: inline;
 	position: absolute;
 	font-size: 20px;
 	font-family: tahoma;
@@ -92,7 +92,7 @@ input {
 }
 
 .resultBar {
-	position: relative;
+	/*position: relative;*/
 	display: block;
 	width: 400px;
 	height: 50px;
@@ -104,7 +104,7 @@ input {
 }
 
 .prevBox {
-	position: relative;
+	/*position: relative;*/
 	display: inline-block;
 	width: 25%;
 	height: 100%;
@@ -116,7 +116,7 @@ input {
 }
 
 .totalsBox {
-	position: relative;
+	/*position: relative;*/
 	display: inline-block;
 	width: 198px;
 	height: 50px;
@@ -130,8 +130,8 @@ input {
 }
 
 .nextBox {
-	position: relative;
-	display: inline-block;
+/*	position: relative;
+*/	display: inline-block;
 	width: 25%;
 	height: 100%;
 	text-align: center;
@@ -142,7 +142,7 @@ input {
 }
 
 .results {
-	position: relative;
+	/*position: relative;*/
 	display: block;
 	margin-top: 40px;
 	margin-left: 50px;

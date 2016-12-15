@@ -64,6 +64,13 @@ input {
 	margin-top: 150px;
 	margin-left: 100px;
 	width: 300px;
+	padding: 5px;
+}
+
+#magGlass {
+	position: relative;
+	width: 40px;
+	top: 12px;
 }
 
 

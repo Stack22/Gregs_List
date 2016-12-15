@@ -141,4 +141,27 @@ input {
 	color: grey;
 }
 
+.results {
+	position: relative;
+	display: block;
+	margin-top: 40px;
+	margin-left: 50px;
+	
+}
 
+.date, .jobLocation {
+	font-size: 16px;
+	font-family: verdana;
+	color: grey;
+	line-height: 30px;
+	margin-left: 10px;
+}
+
+.jobName {
+	font-size: 18px;
+	font-family: verdana;
+	font-weight: bold;
+	color: blue;
+	line-height: 30px;
+	margin-left: 10px;
+}

@@ -12,21 +12,22 @@ nav {
 .navTitle {
 	display: inline;
 	position: absolute;
-	font-size: 30px;
+	font-size: 40px;
 	font-family: tahoma;
 	color: black;
 	left: 50px;
+	top: 20px;
 	
 }
 
 .navLinks {
 	display: inline-block;
 	position: absolute;
-	font-size: 20px;
+	font-size: 30px;
 	font-family: tahoma;
 	left: auto;
 	right: 50px;
-	top: 20px;
+	top: 30px;
 }
 
 ul {
@@ -56,15 +57,17 @@ nav.a:hover {
 }
 
 nav.a:active {
-  /* selected link (i.e., you've clicked
-    but not released on the link)
- */
   color: black;
-}*/
+}
+
+input {
+	margin-top: 150px;
+	margin-left: 100px;
+	width: 300px;
+}
 
 
-
-.mainContainer {
+/*.mainContainer {
 	position: fixed;
 	border: 1px black dotted;
 	width: 800px;
@@ -75,5 +78,5 @@ nav.a:active {
 	margin-right: auto;
 	margin-top: 200px;
 	
-}
+}*/
 

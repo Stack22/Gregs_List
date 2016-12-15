@@ -108,15 +108,25 @@ input {
 	display: inline-block;
 	width: 25%;
 	height: 100%;
+	text-align: center;
+	line-height: 50px;
+	font-family: verdana;
+	font-size: 18px;
+	color: grey;
 }
 
 .totalsBox {
 	position: relative;
 	display: inline-block;
-	width: 50%;
-	height: 100%;
+	width: 198px;
+	height: 50px;
 	border-right: 1px solid grey;
 	border-left: 1px solid grey;
+	text-align: center;
+	line-height: 50px;
+	font-family: verdana;
+	font-size: 18px;
+	color: grey;
 }
 
 .nextBox {
@@ -124,5 +134,11 @@ input {
 	display: inline-block;
 	width: 25%;
 	height: 100%;
+	text-align: center;
+	line-height: 50px;
+	font-family: verdana;
+	font-size: 18px;
+	color: grey;
 }
+
 
